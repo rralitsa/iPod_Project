@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../sounds427"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "iPod_projectdraft"
+	}
+}
