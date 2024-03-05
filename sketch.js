@@ -1,3 +1,4 @@
+let bg;
 let sound;
 let sound2;
 let img;
@@ -18,6 +19,7 @@ function preload() {
   album2 = loadImage('2albumcover.png');
   song1 = loadSound('1GGT.mp3');
   song2 = loadSound('2OIM.mp3');
+  bg = loadImage('bgroom.jpeg');
 }
 
 function setup() {
@@ -25,7 +27,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(bg);
   noStroke();
   
   image(img, 500, 50, 250, 250);
